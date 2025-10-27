@@ -26,7 +26,7 @@ This is a single-page application (SPA) that shows a list of sports leagues with
 ---
 ## Installation
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/radumihaipopa/sports-leagues.git
 cd sports-leagues
 npm install
 ```
@@ -72,4 +72,7 @@ All Leagues: https://www.thesportsdb.com/api/v1/json/3/all_leagues.php
 
 Season Badge: https://www.thesportsdb.com/api/v1/json/3/search_all_seasons.php?badge=1&id=<id>
 
-Documentation: TheSportsDB API
+Documentation: [TheSportsDB API](https://www.thesportsdb.com/free_sports_api)
+## Live Demo
+You can view the deployed project here:  
+👉 [Sports Leagues App on Netlify](https://sports-leagues-sporty.netlify.app)
