@@ -1,0 +1,42 @@
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 230px;
+    min-width: 230px;
+    min-height: 180px;
+    height: 230px;
+    flex-wrap: wrap;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+
+}
+
+.badgeWrapper {
+    margin-top: 0.75rem;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge {
+    max-height: 60px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.badgePlaceholder {
+    height: 60px;
+    width: 60px;
+    background: #eee;
+    border-radius: 8px;
+}
